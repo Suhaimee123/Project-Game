@@ -32,4 +32,8 @@ public class EnemyPathfinding : MonoBehaviour
     public void MoveTo(Vector2 targetPosition) {
         moveDir = targetPosition;
     }
+
+    public void StopMoving() {
+        moveDir = Vector3.zero;
+    }
 }
