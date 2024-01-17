@@ -5411,7 +5411,7 @@ PrefabInstance:
       objectReference: {fileID: 1784742223}
     - target: {fileID: 8062075446437829761, guid: 719f4345826eff04183010a3009ffcf2, type: 3}
       propertyPath: m_ChildCameras.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8372393796540408584, guid: 719f4345826eff04183010a3009ffcf2, type: 3}
       propertyPath: m_Name
@@ -15996,6 +15996,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1479480618}
     m_Modifications:
+    - target: {fileID: 7500261541887528013, guid: 106102819cd7ba943a7f33440f9d256e, type: 3}
+      propertyPath: angleSpread
+      value: 167
+      objectReference: {fileID: 0}
+    - target: {fileID: 7500261541887528013, guid: 106102819cd7ba943a7f33440f9d256e, type: 3}
+      propertyPath: projectilesPerBurst
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7898920601776093692, guid: 106102819cd7ba943a7f33440f9d256e, type: 3}
       propertyPath: m_Name
       value: Ghost
