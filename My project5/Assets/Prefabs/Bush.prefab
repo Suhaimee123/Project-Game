@@ -119,9 +119,9 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 1}
-  m_Direction: 0
+  m_Offset: {x: -0.000000022179037, y: -0.18605126}
+  m_Size: {x: 1.0000001, y: 0.6278997}
+  m_Direction: 1
 --- !u!114 &6328009684721909317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -147,4 +147,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e51a241c5505fba44923734f01fc1e9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goinCoinPrefab: {fileID: 5324482586154843486, guid: 2827b0d0374db62439ecd776b4c4a02b, type: 3}
+  goldCoin: {fileID: 5324482586154843486, guid: 2827b0d0374db62439ecd776b4c4a02b, type: 3}
+  healthGlobe: {fileID: 5324482586154843486, guid: 2b46f2056b84eb846aabda2b65518560, type: 3}
+  staminaGlobe: {fileID: 5324482586154843486, guid: b92283a97fd02b94b94a6b03849417cd, type: 3}
